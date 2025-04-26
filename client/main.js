@@ -15,9 +15,9 @@ class PreloadScene extends Phaser.Scene {
     // Изображения надо где-то хранить: если у вас нет своих, 
     // можете создать обычные «заглушки» (pipe.png, bird.png и т.п.) 
     // или скачать из интернета.
-    this.load.image('bird', 'https://via.placeholder.com/34x24?text=Bird'); 
-    this.load.image('pipe', 'https://via.placeholder.com/50x300?text=Pipe');
-    this.load.image('bg', 'https://via.placeholder.com/400x600?text=Background');
+    this.load.image('bird', 'assets\solutions.png'); 
+    this.load.image('pipe', 'assets\russia.png');
+    this.load.image('bg', 'assets\putin.gif');
   }
 
   create() {
